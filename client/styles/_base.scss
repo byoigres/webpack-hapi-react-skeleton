@@ -1,0 +1,28 @@
+// Settings go here
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800);
+
+$primary-color-1: $blue-800;
+$primary-color-2: $blue-900;
+$primary-color-3: $blue-A700;
+$error-color: $red-500;
+
+html {
+    font-size: 16px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Roboto, Open Sans;
+    background-color: $full-white;
+}
+
+a {
+    text-decoration: none;
+    color: $primary-color-1;
+
+    &:hover {
+        text-decoration: none;
+        color: $primary-color-2;
+    }
+}

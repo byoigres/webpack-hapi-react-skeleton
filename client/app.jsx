@@ -4,7 +4,7 @@ class Counter extends React.Component {
 
     render () {
         return (
-            <div className='Counter'>
+            <div className='Counters'>
 
                 <h1>Hello from App.jsx</h1>
 
